@@ -1,0 +1,30 @@
+{
+  "namespace": "com.metrostation",
+  "type": "record",
+  "name": "SignalisationMessage",
+  "fields": [
+    {
+      "name": "identifier",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "type": {
+        "name": "Status",
+        "type": "enum",
+        "symbols": ["Open", "Closed", "Unknown"]  
+      }
+    },
+    {
+      "name": "ts",
+      "type": {
+        "type": "string",
+        "logicalType": "timestamp-micros"
+      }
+    },
+    {
+      "name": "message",
+      "type": "string"
+    }
+  ]
+}

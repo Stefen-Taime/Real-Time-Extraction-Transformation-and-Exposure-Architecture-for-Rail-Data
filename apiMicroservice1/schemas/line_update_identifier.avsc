@@ -1,0 +1,11 @@
+{
+  "namespace": "com.metrostation",
+  "type": "record",
+  "name": "LineUpdateKey",
+  "fields": [
+    {
+      "name": "identifier",
+      "type": "string"
+    }
+  ]
+}

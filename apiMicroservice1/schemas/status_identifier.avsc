@@ -1,0 +1,11 @@
+{
+  "namespace": "com.metrostation",
+  "type": "record",
+  "name": "IdentifierKey",
+  "fields": [
+    {
+      "name": "identifier",
+      "type": "string"
+    }
+  ]
+}

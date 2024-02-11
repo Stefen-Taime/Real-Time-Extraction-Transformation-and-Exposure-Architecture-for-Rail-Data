@@ -1,0 +1,19 @@
+{
+  "namespace": "com.metrostation",
+  "type": "record",
+  "name": "LineUpdateValue",
+  "fields": [
+    {
+      "name": "identifier",
+      "type": "string"
+    },
+    {
+      "name": "delay_minutes",
+      "type": "int"
+    },
+    {
+      "name": "message",
+      "type": "string"
+    }
+  ]
+}
