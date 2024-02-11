@@ -1,5 +1,5 @@
 # Startup Guide for Real-Time Data Architecture for Rail Data
-
+![](https://cdn-images-1.medium.com/max/2224/1*_YPPANMfcenYWWaFRJfR0A.png)
 This guide provides the necessary steps to set up and run the real-time data architecture for rail data.
 
 ## Clone the Project
